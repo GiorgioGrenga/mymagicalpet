@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Catalogo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="catalogo.css">
+        <script type="text/javascript" lang="javascript" src="bootstrap.min.js"></script>
+        <script type="text/javascript" lang="javascript" src="libreria_catalogo.js"></script>
+    </head>
+
+	<!--???-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand">
+				<img src="../../immagini/logo_small.png" height="55px" alt="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" 
+			aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../coolcarousel.html">HOME</a>
+                    </li>
+                </ul>
+                <a href="../../pagina_Carrello_utente/carrello.html" class="btn btn-outline-light btn-lg" role="button"><i class="fas fa-cart-plus"></i> Carrello</a>         
+            </div>                 
+        </nav>
+
+        <div class="media">
+            <img class="mr-3" src="immagini/sfondo.jpg" >
+            <div class="media-body"><br>
+																					<font color="white">
+                <h1><strong>La nostra selezione</strong></h1>
+                <h4>Qui troverai il meglio che il mercato ha da offrire</h4>
+																					</font>
+                <ul class="list-group list-group-flush">
+
+                </ul>
+            </div>
+        </div><br>
+        <ul class="list-group list-group-flush" >
+			<font color="#641c34">
+            	<h2><center><strong>CATALOGO ANIMALI</strong></center></h2>
+			</font>
+            <li class="list-group-item">
+			
+<!--  lista di container che contengono i prodotti dello shop -->
+
+            <div class="container">
+	            <div class="row">
+	            	<div class="col">
+						<!--<div class="bg-h2">-->
+	            			<h4>Poro</h4><br>
+						<!--</div>-->
+	            		<img class="immag" src="immagini/poro1.jpg" width="340" height="250">
+	            	</div>
+	            	<div class="col">
+						<br><br>
+	            		<h5>Descrizione:</h5>
+	            		Questo piccolo poro &egrave scivolato dalle montagne del freljord a demacia
+						e i soldati demaciani che inizialente lo accolsero si sono accorti che 
+						richiede troppe attenzioni, donagli una casa al pi&ugrave presto(non lo 
+						sopposrtiamo pi&ugrave nemmeno noi XD) <br><br>
+						<h5>Donazione necessaria:</h5>
+	            		<b>100€</b><br><br>
+	            		<button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Ryzen 3 3200G', 100);">Ordina</button></li>
+	            	</div>
+            </div>
+            
+            <li class="list-group-item">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col">
+            			<h4>Felyne </h4><br>
+            			<img class="immag" src="immagini/felyne1.jpg" widht="300" height="200">
+            		</div>
+            		<div class="col">
+						<br><br>
+            			<h5>Descrizione:</h5>
+            			&Egrave stato licenziato dal suo padrone precedente perch&egrave le sue
+						abilità non erano pi&ugrave richieste, ma resta pur sempre un ottimo cuoco!<br><br>
+						<h5>Donazione necessaria:</h5>
+            			<b>500€</b><br><br>
+            			<button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Intel i3 9100', 80);">Ordina</button></li>
+        			</div>
+        		</div>
+        	</div>
+
+            <li class="list-group-item">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col">
+            			<h4>Almiraj</h4><br>
+            			<img class="immag" src="immagini/Almiraj.png" width="200" height="270">
+            		</div>
+            		<div class="col">
+						<br><br>
+            			<h5>Descrizione:</h5>
+            			Un Almiraj somiglia a un grande coniglio o lepre con pelo 
+						giallastro e un corno a spirale lungo circa 30 centimetri, 
+						solitamente di colore nero posto sulla fronte come gli unicorni.
+						Sono animali timidi e stupidi, di conseguenza agiscono spesso in
+						maniera inaspettata ma sono anche facili da addestrare e 
+						rimangono fedeli al proprio padrone.
+						<br><br>
+						<h5>Donazione necessaria:</h5>
+            			<b>50</b><br><br>
+            			<br><button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Ryzen 5 3600', 160);">Ordina</button></li>
+            		</div>
+            	</div>
+            </div>
+            
+            <li class="list-group-item">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col">
+						<h4>Chocobo</h4><br>
+						<img class="immag" src="immagini/chocobo.jpg" width="250" height="200">
+					</div>
+					<div class="col">
+						<br><br>
+						<h5>Descrizione:</h5>
+						Vi siete stufati dei cavalli ma la voglia di utilizzare 
+						un animale come se fosse un motorino non vi è passata?!<br>
+						PERFETTO!<br>
+						Questi grossi pennuti gialli fanno al caso vostro!
+						Intelligenti, simpatici e veloci stringeranno un forte 
+						legame con voi se riuscirete a farli sentire a proprio agio.
+						<br><br>
+						<h5>Donazione necessaria:</h5>
+						<b>600€</b><br><br>
+						<button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Intel i5 9600k', 200);">Ordina</button></li>
+					</div>
+				</div>
+			</div>
+
+
+            <li class="list-group-item">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col">
+            			<h4>Snaso</h4><br>
+            			<img class="immag" src="immagini/snaso.jpg" width="320" height="200">
+            		</div>
+            		<div class="col">
+						<br><br>
+            			<h5>Descrizione</h5>
+            			Gli Snasi hanno un manto di soffice, ricciola e nera pelliccia, 
+						con un muso allungato (simile a quello di papere) e artigli anteriori 
+						piatti che gli consentono di afferrare gli oggetti e di scavare con molta facilità. 
+						Hanno dimensioni che ricordano quelle di un porcellino d'India.
+						La loro cucciolata varia dai sei agli otto piccoli.
+						<br><br>
+						<h5>Donazione necessaria:</h5>
+            			<b>280€</b><br><br>
+            			<button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Ryzen 7 3500X', 280);">Ordina</button></li>
+            		</div>
+            	</div>
+            </div>
+
+
+            <li class="list-group-item">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col">
+            			<h4>Cucciolo di drago autunnale</h4><br>
+            			<img class="immag" src="immagini/drago_autunno.jpg" width="200" height="300">
+            		</div>
+            		<div class="col">
+						<br><br><br>
+            			<h5>Descrizione</h5>
+            			porta l'autunno con se<br><br>
+						<h5>Donazione necessaria:</h5>
+            			<b>3000€</b><br><br>
+            			<button type="button" class="btn btn-outline-dark" onclick="return scrivi_su_localStorage('Intel i7 9700k', 350);">Ordina</button></li>
+            		</div>
+            	</div>
+            </div>
+
+        </ul>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- Footer --><!-- QUA CI METTIAMO LA RICHIESTA INFO -->
+      <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3"  style="background-color: #82FF5C;"><strong>Made with</strong> ❤️ Giorgione e Jonny
+          </div>
+      </footer>
+      <!-- Fine Footer -->
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      
+    </body>
+</html>
