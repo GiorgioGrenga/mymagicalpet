@@ -7,32 +7,33 @@ var felyne=0;
 var almiraj=0;
 var chocobo=0;
 var snaso=0;
-var intel7=0;
-var hyper212=0;
-var noctua15=0;
-var noctua12=0;
-var h60=0;
-var h115=0;
-var h150=0;
-var piatto=0;
+var drago=0;
+var occamy=0;
+var pseudodrago=0;
+var cerbero=0;
+var flerken=0;
+var fenice=0;
+var prinny=0;
+var chimera=0;
+var gatto_alato=0;
 
 // funzione che in base al nome ricevuto in input dalla pagina dei prodotti
 // incrementa la quantità del prodotto
 
 function incrementa_quant(nome) {
-    if (nome=="poro") {
+    if (nome=="Poro") {
         poro+=1;
         return poro;
     }
-    if (nome=="felyne") {
+    if (nome=="Felyne") {
         felyne+=1;
         return felyne;
     }
-    if (nome=="almiraj") {
+    if (nome=="Almiraj") {
         almiraj+=1;
         return almiraj;
     }
-    if (nome=="chocobo") {
+    if (nome=="Chocobo") {
         chocobo+=1;
         return chocobo;
     }
@@ -40,33 +41,46 @@ function incrementa_quant(nome) {
         snaso+=1;
         return snaso;
     }
-    if (nome=="Intel i7 9700k") {
-        intel7+=1;
-        return intel7;
+    if (nome=="Cucciolo di drago autunnale") {
+        drago+=1;
+        return drago;
     }
-    if (nome=="Hyper 212") {
-        hyper212+=1;
-        return hyper212;
+
+    if (nome=="Pegaso") {
+        pegaso+=1;
+        return pegaso;
     }
-    if (nome=="Noctua NHD15") {
-        noctua15+=1;
-        return noctua15;
+    if (nome=="Occamy") {
+        occamy+=1;
+        return occamy;
     }
-    if (nome=="Noctua NHL12S") {
-        noctua12+=1;
-        return noctua12;
+    if (nome=="Pseudodrago") {
+        pseudodrago+=1;
+        return pseudodrago;
     }
-    if (nome=="Corsair H60") {
-        h60+=1;
-        return h60;
+    if (nome=="Cerbero") {
+        cerbero+=1;
+        return cerbero;
     }
-    if (nome=="Corsair H115i") {
-        h115+=1;
-        return h115;
+    if (nome=="Flerken") {
+        flerken+=1;
+        return flerken;
     }
-    if (nome=="Corsair H150i") {
-        h150+=1;
-        return h150;
+    if (nome=="Fenice") {
+        fenice+=1;
+        return fenice;
+    }
+    if (nome=="Prinny") {
+        prinny+=1;
+        return prinny;
+    }
+    if (nome=="Chimera") {
+        chimera+=1;
+        return chimera;
+    }
+    if (nome=="Gatto alato") {
+        gatto_alato+=1;
+        return gatto_alato;
     }
 
 }
