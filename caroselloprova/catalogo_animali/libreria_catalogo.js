@@ -2,11 +2,11 @@
 //variabili globali per le quantità dei prodotti
 // vengono incrementate ogni volta che vengono aggiunte al carrello
 
-var ryzen3=0;
-var intel3=0;
-var ryzen5=0;
-var intel5=0;
-var ryzen7=0;
+var poro=0;
+var felyne=0;
+var almiraj=0;
+var chocobo=0;
+var snaso=0;
 var intel7=0;
 var hyper212=0;
 var noctua15=0;
@@ -20,25 +20,25 @@ var piatto=0;
 // incrementa la quantità del prodotto
 
 function incrementa_quant(nome) {
-    if (nome=="Ryzen 3 3200G") {
-        ryzen3+=1;
-        return ryzen3;
+    if (nome=="poro") {
+        poro+=1;
+        return poro;
     }
-    if (nome=="Intel i3 9100") {
-        intel3+=1;
-        return intel3;
+    if (nome=="felyne") {
+        felyne+=1;
+        return felyne;
     }
-    if (nome=="Ryzen 5 3600") {
-        ryzen5+=1;
-        return ryzen5;
+    if (nome=="almiraj") {
+        almiraj+=1;
+        return almiraj;
     }
-    if (nome=="Intel i5 9600k") {
-        intel5+=1;
-        return intel5;
+    if (nome=="chocobo") {
+        chocobo+=1;
+        return chocobo;
     }
-    if (nome=="Ryzen 7 3700X") {
-        ryzen7+=1;
-        return ryzen7;
+    if (nome=="Snaso") {
+        snaso+=1;
+        return snaso;
     }
     if (nome=="Intel i7 9700k") {
         intel7+=1;

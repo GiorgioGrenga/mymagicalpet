@@ -12,22 +12,3 @@
     padding: 5px;
     border-radius: 30px;
 }
-
-/*questa doveva essere la prova per un separatore fico */
-/*.bg-h2 {
-    background: url("immagini/bg_h2-top.png") no-repeat center 0, url("immagini/bg_h2-bottom.png") no-repeat center bottom;
-    background-color: #ffffff;
-    width: 618px;
-    margin: 0 auto 60px;
-    box-sizing: border-box; }
-    .bg-h2 h2 {
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: 0.25rem;
-      text-align: center;
-      padding: 10px 30px 8px; }
-      .bg-h2 h2 span {
-        font-size: 14px;
-        margin: -5px 0 0 15px;
-        vertical-align: middle;
-        display: inline-block; }*/
